@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+footer > p {
+    font-size: 2vh;
+}
+
+#description {
+    margin-top: 5px;
+}
+
+#main {
+    background-color: whitesmoke;
+    color: #000;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    width: 80%;
+    padding: 15px;
+}
+
+.dataform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataform label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main,
+.personal-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-flex label {
+    flex: 1 0 120px;
+    max-width: 220px;
+}
+
+.commentsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.dropdown {
+    height: 30px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;  
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 10px;
+}
+.input-field {
+    height: 35px;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+[type="radio"],
+[type="checkbox"] {
+    width: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.addtext {
+    height: 125px;
+    width: 350px;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+#submit {
+   font-size: 1em;
+   height: 30px;
+}
+
+#submit:hover {
+    color: white;
+    background: royalblue;
+}
